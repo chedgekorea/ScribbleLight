@@ -1,12 +1,323 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>ScribbleLight</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+  <script src="static/js/zoom.js"></script>
 </head>
 <body>
-  <p>Hello, World!</p>
-</body>
-</html>
+
+
+	<section class="hero">
+		<div class="hero-body">
+		  <div class="container is-max-desktop">
+			<div class="columns is-centered">
+			  <div class="column has-text-centered">
+				<h1 class="title is-1 publication-title">ScribbleLight: Single Image Indoor Relighting with Scribbles</h1>
+				<div class="is-size-5 publication-authors">
+				  <!-- Paper authors -->
+				  <span class="author-block">
+					  <a href="https://chedgekorea.github.io" target="_blank">Jun Myeong Choi</a>,</span>
+					<span class="author-block">
+					  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Annie Wang</a>,</span>
+					  <span class="author-block">
+						<a href="https://www.cs.wm.edu/~ppeers/" target="_blank">Pieter Peers</a>,
+					  </span>
+					  <span class="author-block">
+						<a href="https://anandbhattad.github.io" target="_blank">Anand Bhattad</a>,
+					  </span>
+					  <span class="author-block">
+						<a href="https://www.cs.unc.edu/~ronisen/" target="_blank">Roni Sengupta</a>,
+					  </span>
+					  </div>
+	
+					  <div class="is-size-5 publication-authors">
+						<span class="author-block">University of North Carolina at Chapel Hill, College of William & Mary,</span>
+						<span class="author-block">Toyota Technological Institute at Chicago</span>
+						<!-- <span class="author-block">Institution Name<br>Conferance name and year</span> -->
+						<!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
+					  </div>
+	
+					  <div class="column has-text-centered">
+						<div class="publication-links">
+							 <!-- Arxiv PDF link -->
+						  <span class="link-block">
+							<a href="https://arxiv.org/abs/2411.17696" target="_blank"
+							class="external-link button is-normal is-rounded is-dark">
+							<span class="icon">
+							  <i class="fas fa-file-pdf"></i>
+							</span>
+							<span>Paper</span>
+						  </a>
+						</span>
+	
+						<!-- Supplementary PDF link -->
+						<!-- <span class="link-block">
+						  <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+						  class="external-link button is-normal is-rounded is-dark">
+						  <span class="icon">
+							<i class="fas fa-file-pdf"></i>
+						  </span>
+						  <span>Supplementary</span>
+						</a>
+					  </span> -->
+	
+					  <!-- Github link -->
+					  <!-- <span class="link-block">
+						<a href="https://github.com/YOUR REPO HERE" target="_blank"
+						class="external-link button is-normal is-rounded is-dark">
+						<span class="icon">
+						  <i class="fab fa-github"></i>
+						</span>
+						<span>Code</span>
+					  </a>
+					</span> -->
+	
+					<!-- ArXiv abstract Link -->
+					<!-- <span class="link-block">
+					  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+					  class="external-link button is-normal is-rounded is-dark">
+					  <span class="icon">
+						<i class="ai ai-arxiv"></i>
+					  </span>
+					  <span>arXiv</span>
+					</a>
+				  </span> -->
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</section>
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="demo" autoplay controls muted loop height="100%">
+        <source src="static/videos/demo.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+		Iteratively refine lighting effects demo video. 
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+	<div class="container is-max-desktop">
+	  <div class="columns is-centered has-text-centered">
+		<div class="column is-four-fifths">
+		  <h2 class="title is-3">Abstract</h2>
+		  <div class="content has-text-justified">
+			<p>
+			  Image-based relighting of indoor rooms creates an immersive virtual understanding of the space, which is useful for interior design, virtual staging, and real estate. Relighting indoor rooms from a single image is especially challenging due to complex illumination interactions between multiple lights and cluttered objects featuring a large variety in geometrical and material complexity. Recently, generative models have been successfully applied to image-based relighting conditioned on a target image or a latent code, albeit without detailed local lighting control. In this paper, we introduce ScribbleLight, a generative model that supports local fine-grained control of lighting effects through scribbles that describe changes in lighting. Our key technical novelty is an Albedo-conditioned Stable Image Diffusion model that preserves the intrinsic color and texture of the original image after relighting and an encoder-decoder-based ControlNet architecture that enables geometry-preserving lighting effects with normal map and scribble annotations.  We demonstrate ScribbleLight's ability to create different lighting effects (e.g., turning lights on/off, adding highlights, cast shadows, or indirect lighting from unseen lights) from sparse scribble annotations.
+			</p>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </section>
+  <!-- End paper abstract -->
+
+
+
+
+<section class="hero is-small">
+  <div class="hero-body">\
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <img src="static/images/iter1.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          	Iterative example 1.
+        </h2>
+      </div>
+      <div class="item">
+        <img src="static/images/iter2.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+			Iterative example 2.
+        </h2>
+      </div>
+      <div class="item">
+        <img src="static/images/iter3.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+			Iterative example 3.
+       </h2>
+     </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+<section class="section hero is-light">
+	<div class="container is-full is-max-desktop">
+	  <div class="content">
+		<h2 class="title is-3">User Scribble</h2>
+		<div class="level-set has-text-justified">
+		  <p>
+			We qualitatively compare the relighting quality of LightIt* [31], RGB↔X [73], and ScribbleLight (Ours) using user-provided hand-drawn scribbles.
+		  </p>
+		  <h2 class="has-text-centered">
+			<emph>Move your mouse over the image to zoom</emph>
+		  </h2>
+		</div>
+	  </div>
+	  <p>
+		<div class="columns is-centered has-text-centered">
+		  <div class="column is-11">
+			<div class="img-zoom-container">
+			  <img src="static/images/user_scribble1.png" alt="Motivation for 3D" class="center-image blend-img-background" id="myimage"/> 
+  
+			</div>
+		  </div>
+		  <div class="column is-1">
+			<div id="myresult" class="center-image img-zoom-result"></div>
+		  </div>
+		</div>
+		<script>
+		  imageZoom("myimage", "myresult");
+		</script>
+	  </p>
+	</div>
+  </section>
+
+
+
+
+
+  <section class="section hero is-small">
+	<div class="container is-full is-max-desktop">
+	  <div class="content">
+		<h2 class="title is-3">Monochromatic Shading Map</h2>
+		<div class="level-set has-text-justified">
+		  <p>Qualitative comparison of relighting quality between LightIt* [31], IIDiffusion [32], RGB↔X [73] and ScribbleLight (Ours) with monochromatic shading map given a target (GT) image</p>
+		  <h2 class="has-text-centered"><emph>Move your mouse over the image to zoom</emph></h2>
+		</div>
+	  </div>
+	  <div class="columns is-centered has-text-centered">
+		<div class="column is-11">
+		  <div class="img-zoom-container">
+			<img src="static/images/shading_map1.png" alt="Shading map" class="center-image blend-img-background" id="myimage2" />
+		  </div>
+		</div>
+		<div class="column is-1">
+		  <div id="myresult2" class="center-image img-zoom-result"></div>
+		</div>
+	  </div>
+	  <script>
+		imageZoom("myimage2", "myresult2");
+	  </script>
+	</div>
+  </section>
+
+  
+
+
+  <section class="section hero is-light">
+	<div class="container is-full is-max-desktop">
+	  <div class="content">
+		<h2 class="title is-3">Turning On/Off the Light</h2>
+		<div class="level-set has-text-justified">
+		  <p>
+			We illustrate ScribbleLight's ability to create various plausible relit images by switching different lights on and off while preserving the intrinsic properties of the input photograph.
+		  </p>
+		  <h2 class="has-text-centered">
+			<emph>Move your mouse over the image to zoom</emph>
+		  </h2>
+		</div>
+	  </div>
+	  <p>
+		<div class="columns is-centered has-text-centered">
+		  <div class="column is-11">
+			<div class="img-zoom-container">
+			  <img src="static/images/on_off.png" alt="On Off" class="center-image blend-img-background" id="myimage3"/> 
+  
+			</div>
+		  </div>
+		  <div class="column is-1">
+			<div id="myresult3" class="center-image img-zoom-result"></div>
+		  </div>
+		</div>
+		<script>
+		  imageZoom("myimage3", "myresult3");
+		</script>
+	  </p>
+	</div>
+  </section>
+
+
+<section class="section" id="BibTeX">
+	<div class="container is-max-desktop content">
+	<h2 class="title">BibTeX</h2>
+	<pre><code>@misc{choi2024scribblelightsingleimageindoor,
+		title={ScribbleLight: Single Image Indoor Relighting with Scribbles}, 
+		author={Jun Myeong Choi and Annie Wang and Pieter Peers and Anand Bhattad and Roni Sengupta},
+		year={2024},
+		eprint={2411.17696},
+		archivePrefix={arXiv},
+		primaryClass={cs.CV},
+		url={https://arxiv.org/abs/2411.17696}, 
+  }</code></pre>
+	</div>
+</section>
+
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+		  const video = document.getElementById('demo');
+		  video.load();
+		});
+	  </script>
+
+	<script>
+		window.onload = function () {
+		  imageZoom("myimage", "myresult");
+		  imageZoom("myimage2", "myresult2");
+		  imageZoom("myimage3", "myresult3");
+		};
+	  </script>
+
+  </body>
+  </html>
